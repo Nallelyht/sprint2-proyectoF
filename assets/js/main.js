@@ -28,6 +28,9 @@ function eliminar(elemento){
 /*objeto para crear nueva lista*/
 function ListaNueva(nombre){
     this.nombre=nombre;
+    this.ninput= function(){
+        
+    }
     /*this.nuevaLista = function(){
         var lista = document.getElementById("pendientes");
         var nLista = document.createElement("dl");
